@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
-import React from 'react'
-'use client'
+"use client";
+import { useRouter } from "next/navigation";
+import React from "react";
 
 const HeroText = () => {
   const router = useRouter();
@@ -33,6 +33,6 @@ const HeroText = () => {
       </div>
     </div>
   );
-}
+};
 
-export default HeroText
+export default HeroText;
