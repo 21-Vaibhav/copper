@@ -7,7 +7,7 @@ import FeatureBlock from './blocks/features-block/FeatureBlock';
 const page = () => {
   return (
     <div className="flex flex-col justify-between">
-      <div className="sticky top-0 container mx-auto py-6 backdrop-blur-xl bg-base-100/50">
+      <div className="sticky top-0 container mx-auto py-6 backdrop-blur-xl bg-base-100/50 z-50">
         <NavigationBar />
       </div>
       <div className="p-24 container mx-auto ">

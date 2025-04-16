@@ -25,7 +25,7 @@ const HeroText = () => {
           Get Started
         </button>
         <button
-          className="btn btn-lg rounded-full bg-orange-500 hover:bg-orange-700"
+          className="btn btn-lg btn-soft rounded-full  hover:bg-base-200"
           onClick={() => router.push("https://github.com/honojs/hono")}
         >
           View on Github
