@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterBar = () => {
   return (
-    <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+    <footer className="footer sm:footer-horizontal footer-center text-slate-400 p-4">
       <aside>
         <p className="text-center">
           Released under the MIT License.
