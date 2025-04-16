@@ -2,15 +2,19 @@ import FooterBar from '@/components/footer-bar/FooterBar';
 import NavigationBar from '@/components/navigation-bar/NavigationBar';
 import React from 'react'
 import HeroBlock from './blocks/hero-block/HeroBlock';
+import FeatureBlock from './blocks/features-block/FeatureBlock';
 
 const page = () => {
   return (
     <div className="flex flex-col justify-between">
       <NavigationBar />
-      <div className="p-24 container mx-auto">
+      <div className="p-24 container mx-auto ">
         <HeroBlock />
       </div>
-      <div className="h-48 bg-red-500" />
+      <div className="p-24 container mx-auto ">
+        <FeatureBlock />
+      </div>
+
       <FooterBar />
     </div>
   );
