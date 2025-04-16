@@ -2,9 +2,10 @@ import React from 'react'
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col justify-start">
+    <div className="flex flex-col justify-start gap-4">
       <h1 className="text-6xl font-black">
         <span className="text-orange-500">Hono</span>
+        <br />
         Web application
         <br />
         framework
@@ -13,7 +14,7 @@ const HeroText = () => {
         Fast, lightweight, built on Web Standards. Support for any JavaScript
         runtime.
       </p>
-      <div className="flex flex-row justify-start mt-8">
+      <div className="flex flex-row justify-start mt-8 gap-4">
         <button className="btn btn-lg rounded-full bg-orange-500 hover:bg-orange-700">
           Get Started
         </button>

@@ -7,8 +7,10 @@ const page = () => {
   return (
     <div className="flex flex-col justify-between">
       <NavigationBar />
-      <HeroBlock />
-      <div className='h-48 bg-red-500'/>
+      <div className="p-24 container mx-auto">
+        <HeroBlock />
+      </div>
+      <div className="h-48 bg-red-500" />
       <FooterBar />
     </div>
   );
